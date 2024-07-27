@@ -271,7 +271,12 @@ body {
 }
 section{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: nowrap; */
+}
+.portfolio-content {
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit, minmax(359px, auto)); */
+    /* grid-template-columns: auto; */
 }
 .container1{
     width: 600px;
@@ -491,10 +496,6 @@ section{
 }
 .main-text h2 span{
     color: #0ef;
-} 
-.portfolio-content{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(359px, auto));
 }
 .row{
     position: relative;
